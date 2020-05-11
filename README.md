@@ -42,11 +42,13 @@ then just Follw below stepes,
 
 In this ANN,you can make as many model as you want .For this Just change layers_dims variable at line 239
 By default it is 3 layer ANN,
-layers_dims = [X_train.shape[1], 23, 8, 1]
-That means ,On input layer there are X_train.shape[1] number of nodes
-            On first hidden layer there are 23 nodes
-            On second hidden layer there are 8 nodes
+layers_dims = [X_train.shape[1], 23, 8, 1].
+
+That means ,On input layer there are X_train.shape[1] number of nodes,
+            On first hidden layer there are 23 nodes,
+            On second hidden layer there are 8 nodes,
             On third or output layer there are 1 nodes as our problem is Binary Problem .
+            
  And also you can check with different Activation function same as above file,
  but In this file you have to change in this (  L_model_forward() and L_model_backward() )  2 methods.         
  In This ANN default you will get 97.36% accuracies on Test set and 98.68% accuracies on Training set.
