@@ -42,7 +42,7 @@ then just Follw below stepes,
 
 3. Cancer_Multi_Layer.py
 
-In this ANN,you can make as many model as you want .For this Just change layers_dims variable at line 239
+In this ANN,you can make as many Layers as you want .For this Just change layers_dims variable at line 239
 By default it is 3 layer ANN,
 layers_dims = [X_train.shape[1], 23, 8, 1].
 
